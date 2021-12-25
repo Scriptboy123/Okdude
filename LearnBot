@@ -1,4 +1,4 @@
-_G.KEY = "T"
+_G.KEY = "q"
 		_G.PART = "HumanoidRootPart"
 		_G.PRED = 0.043
 		_G.Frame = Vector3.new(0, 0.53, 0)
@@ -163,7 +163,7 @@ _G.KEY = "T"
 		game.Players.LocalPlayer.Chatted:Connect(
 			function(L_112_arg0)
 				if L_112_arg0 == "/e hrp" then
-					_G.KEY = "T"
+					_G.KEY = "q"
 					_G.AIR = 0.00008
 					_G.PART = "UpperTorso"
 					_G.PRED = 0.041
@@ -174,7 +174,7 @@ _G.KEY = "T"
 		game.Players.LocalPlayer.Chatted:Connect(
 			function(L_113_arg0)
 				if L_113_arg0 == "/e Dult" then
-					_G.KEY = "T"
+					_G.KEY = "q"
 					_G.AIR = 0.00008
 					_G.PART = "HumanoidRootPart"
 					_G.PRED = 0.041
