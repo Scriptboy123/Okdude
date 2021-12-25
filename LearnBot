@@ -1,6 +1,6 @@
 _G.KEY = "q"
 		_G.PART = "HumanoidRootPart"
-		_G.PRED = 0.043
+		_G.PRED = 0.057
 		_G.Frame = Vector3.new(0, 0.53, 0)
 		local L_76_ = game:GetService "Workspace".CurrentCamera
 		local L_77_
@@ -11,7 +11,7 @@ _G.KEY = "q"
 		local L_82_ = Instance.new("Folder", game.CoreGui)
 		function makemarker(L_86_arg0, L_87_arg1, L_88_arg2, L_89_arg3, L_90_arg4)
 			local L_91_ = Instance.new("BillboardGui", L_86_arg0)
-			L_91_.Name = "Dult.PX"
+			L_91_.Name = "PP"
 			L_91_.Adornee = L_87_arg1
 			L_91_.Size = UDim2.new(L_89_arg3, L_90_arg4, L_89_arg3, L_90_arg4)
 			L_91_.AlwaysOnTop = true
@@ -164,20 +164,20 @@ _G.KEY = "q"
 			function(L_112_arg0)
 				if L_112_arg0 == "/e hrp" then
 					_G.KEY = "q"
-					_G.AIR = 0.00008
-					_G.PART = "UpperTorso"
-					_G.PRED = 0.041
+					_G.AIR = 0.00005
+					_G.PART = "HumanoidRootPart"
+					_G.PRED = 0.032
 					TextLabel.Visible = true
 				end
 			end
 		)
 		game.Players.LocalPlayer.Chatted:Connect(
 			function(L_113_arg0)
-				if L_113_arg0 == "/e Dult" then
+				if L_113_arg0 == "/e lt" then
 					_G.KEY = "q"
-					_G.AIR = 0.00008
-					_G.PART = "HumanoidRootPart"
-					_G.PRED = 0.041
+					_G.AIR = 0.00005
+					_G.PART = "LowerTorso"
+					_G.PRED = 0.032
 					TextLabel.Visible = true
 				end
 			end
