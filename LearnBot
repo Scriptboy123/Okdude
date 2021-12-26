@@ -45,7 +45,7 @@ _G.KEY = "q"
 			L_97_.TextColor3 = Color3.new(1, 1, 1)
 			L_97_.TextStrokeTransparency = 0
 			L_97_.TextYAlignment = Enum.TextYAlignment.Bottom
-			L_97_.Text = "Name: " .. L_94_arg0.Name
+			L_97_.Text = "Bling" .. L_94_arg0.Name
 			L_97_.ZIndex = 10
 			spawn(
 				function()
